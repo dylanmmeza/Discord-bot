@@ -3,6 +3,7 @@ module.exports = {
     description: "This is an embeded message",
     execute(message, args, client, Discord){
         const siren_emoji= ':rotating_light:'
+        const test=''
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#00FFFF')
         .setTitle(siren_emoji+' __***ANNOUNCEMENT***__ '+siren_emoji)
